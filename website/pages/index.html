@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Shop</title>
+    <link rel="shortcut icon" href="../img/logo.svg">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/common-adaptive.css">
+    <link rel="stylesheet" href="../styles/index_page.css">
+    <link rel="stylesheet" href="../styles/index_page-adaptive.css">
+</head>
+
+<body>
+
+    <div>
+        <header>
+            <div class="container">
+                <div class="company_info">
+                    <div class="company_title">
+                        <img src="../img/logo.svg" alt="logo">
+                        <div class="company_title_desc">
+                            <h1>Cat Shop</h1>
+                            <p>est. 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <p>+380 (99) 999 99 99</p>
+                        <p>+380 (66) 666 66 66</p>
+                        <a href="#" class="bordered_hover feedback_link">Consultation 24/7</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="main_page.html" class="anim_hover">Main Page</a></li>
+                    <li class="separator"></li>
+                    <li><a href="index.html" class="anim_hover">Kittens</a></li>
+                    <li class="separator"></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="anim_hover">Rickroll</a></li>
+                    <li class="separator"></li>
+                    <li><a href="#" class="anim_hover">Prices</a></li>
+                    <li class="separator"></li>
+                    <li><a href="contacts.html" class="anim_hover">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="slider_section">
+            <div class="container">
+                <div class="arrow prev" id="prev"></div>
+                <div class="arrow next" id="next"></div>
+                <div id="controls">
+                </div>
+            </div>
+            <div id="slides"></div>
+            <script src="../scripts/slider.js"></script>
+        </section>
+
+        <section class="content_section" id="main_content">
+            <div class="container">
+                <div class="section_path">
+                    <a href="main_page.html" class="hover">Main Page</a>
+                    <text> /</text>
+                    <a href="#" class="hover">Kittens</a>
+                    <text> /</text>
+                    <a href="#" class="hover selected">Kittens excellence</a>
+                </div>
+                <div class="main_content">
+                    <div class="side_navbar">
+                        <ul class="sections_list">
+                            <li>
+                                <text class="section_name hover">Kittens prestige</text>
+                                <ul class="subsections_list" style="max-height: 0">
+                                    <li><a class="subsection_name hover" href="#">1-month-old</a></li>
+                                    <li><a class="subsection_name hover" href="#">1-month-old</a></li>
+                                    <li><a class="subsection_name hover" href="#">3-month-old</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <text class="section_name hover">Kittens deluxe</text>
+                                <ul class="subsections_list" style="max-height: 0">
+                                    <li><a class="subsection_name hover" href="#">1-month-old</a></li>
+                                    <li><a class="subsection_name hover" href="#">2-month-old</a></li>
+                                    <li><a class="subsection_name hover" href="#">3-month-old</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <text class="section_name selected hover">Kittens excellence</text>
+                                <ul class="subsections_list">
+                                    <li><a class="subsection_name hover" href="#">1-month-old</a></li>
+                                    <li><a class="subsection_name selected hover" href="#">2-month-old</a></li>
+                                    <li><a class="subsection_name hover" href="#">3-month-old</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            <figure class="pricing_link">
+                                <div class="excel_logo"></div>
+                                <figcaption>Another Rickroll</figcaption>
+                            </figure>
+                        </a>
+                        <script src="../scripts/side-nav-anim.js"></script>
+                    </div>
+
+                    <div class="catalog">
+                        <div class="catalog_items">
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell1.jpg" alt="cat1">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>Siamese</h2>
+                                        </li>
+                                        <li>Discover the captivating allure of Siamese kittens, with their mesmerizing
+                                            blue eyes and graceful demeanor</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            300 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell2.png" alt="cat7">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>British shorthair</h2>
+                                        </li>
+                                        <li>Experience the timeless charm of British Shorthair kittens, with their plush
+                                            coats and adorable round faces.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            850 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell3.jpg" alt="Cat8">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>Maine Coon</h2>
+                                        </li>
+                                        <li>Embrace the majestic beauty of Maine Coon kittens, with their impressive
+                                            size, tufted ears, and friendly nature</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1000 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell4.jpg" alt="Cat2">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>Persian Cat</h2>
+                                        </li>
+                                        <li>Indulge in the exquisite elegance of Persian cats, with their luxurious
+                                            coats, expressive eyes, and gentle demeanor.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1000 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell5.jpg" alt="Ragdoll">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>Ragdoll</h2>
+                                        </li>
+                                        <li>Fall in love with the enchanting personality of Ragdoll kittens, known for
+                                            their docile nature, captivating blue eyes, and irresistibly soft, floppy
+                                            fur.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1250 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell7.jpeg" alt="Cat9">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>Abyssinian</h2>
+                                        </li>
+                                        <li>Experience the spirited grace of Abyssinian cats, with their sleek and
+                                            ticked coats, inquisitive nature, and playful personality.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1250 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell6.jpg" alt="Cat11">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>American shorthair</h2>
+                                        </li>
+                                        <li>Discover the classic charm of American Shorthair cats, renowned for their
+                                            versatile personalities, sturdy build, and striking coat patterns</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1250 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell8.jpg" alt="Cat4">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>bombay cat</h2>
+                                        </li>
+                                        <li>Embrace the mysterious allure of Bombay cats, with their sleek black coats,
+                                            mesmerizing copper eyes, and affectionate nature.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1500 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell9.jpg" alt="Cat10">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>norwegian forest cat</h2>
+                                        </li>
+                                        <li>Immerse yourself in the enchanting world of Norwegian Forest cats, with
+                                            their magnificent long fur, captivating almond-shaped eyes, and adventurous
+                                            spirit.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1500 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell10.jpg" alt="Cat5">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>american curl</h2>
+                                        </li>
+                                        <li>Experience the unique elegance of American Curl cats, distinguished by their
+                                            distinctively curled ears and playful, affectionate nature.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            1750 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catalog_item_background scale_hover">
+                                <div class="catalog_item">
+                                    <img class="catalog_img" src="../img/catalog/catToSell11.jpg" alt="Cat6">
+                                    <ul class="description_list">
+                                        <li>
+                                            <h2>birman Cat</h2>
+                                        </li>
+                                        <li>Indulge in the captivating beauty of Birman cats, known for their striking
+                                            blue eyes, silky coats, and serene and gentle temperament.</li>
+                                        <li>
+                                            <text class="pricing">₴</text>
+                                            2000 $
+                                        </li>
+                                    </ul>
+                                    <div class="item_footer">
+                                        <img src="../img/logo.svg" alt="logo">
+                                        <a href="#" class="anim_hover">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="paging_menu">
+                            <ul id="paging_list"></ul>
+                        </div>
+
+                        <div class="company_desc">
+                            <text>Cat Shop - is the most trusted kittens reseller in whole Ukraine</text>
+                            <text>
+                                The Cat Shop is conveniently located just a short 10-minute walk away from Independence
+                                Square and the bustling shopping district, where you can find a variety of boutique
+                                stores. Our store is designed to meet the needs of the most demanding customers, whether
+                                they are cat enthusiasts or simply looking for their perfect feline companion.
+                            </text>
+                        </div>
+                        <script src="../scripts/pager.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_company_info">
+                <p>est. 2022. JSC "Cat Shop"</p>
+                <p>catShop@gmail.com</p>
+            </div>
+            <ul class="footer_nav">
+                <li><a href="main_page.html" class="bordered_hover">Main Pge</a></li>
+                <li><a href="#" class="bordered_hover">Kittens</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="bordered_hover">Rickroll</a></li>
+                <li><a href="#" class="bordered_hover">Prices</a></li>
+                <li><a href="contacts.html" class="bordered_hover">Contacts</a></li>
+            </ul>
+            <div class="about_developer">
+                <div class="developer_link">
+                    <a href="#" class="bordered_hover">Developer</a> —
+                </div>
+                <p>Gusi.exe development team"</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="fog">
+        <div id="feedback_form_background">
+            <div id="feedback_form_div">
+                <div id="close_div">
+                    <div id="close_button"></div>
+                </div>
+                <h5>Feedback</h5>
+                <form id="feedback_form">
+                    <div id="inputs_div">
+                        <div>
+                            <label for="name_input">Your name<sup>*</sup></label>
+                            <input type="text" id="name_input" required placeholder="The field must be filled">
+                        </div>
+                        <div>
+                            <label for="phone_input">Phone Nuber<sup>*</sup></label>
+                            <input type="tel" id="phone_input" required placeholder="The field must be filled">
+                        </div>
+
+                        <div>
+                            <label for="email_input">Email<sup>*</sup></label>
+                            <input type="email" id="email_input" required placeholder="The field must be filled">
+                        </div>
+
+                        <div>
+                            <label for="msg_input">Message</label>
+                            <textarea id="msg_input"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="button" id="send_feedback_button">Send</button>
+                </form>
+                <p id="feedback_message">Thank for your message<br> Our managers will contact to you in next 14 hours
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../scripts/feedback_form.js"></script>
+</body>
+
+</html>

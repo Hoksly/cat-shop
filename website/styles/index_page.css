@@ -1,0 +1,188 @@
+.content_section {
+    background-color: #306CC0;
+}
+
+.content_section .container {
+    background-color: #fff;
+    padding-bottom: 200px;
+}
+
+.main_content {
+    display: flex;
+}
+
+.side_navbar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.catalog {
+    flex: 4;
+}
+
+.sections_list > li {
+    margin-bottom: 10px;
+}
+
+.sections_list > li:last-child {
+    margin-bottom: 0;
+}
+
+.section_name {
+    font-size: 20px;
+    color: #002353;
+    cursor: pointer;
+}
+
+.subsections_list {
+    margin-left: 15px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+}
+
+.subsections_list > li {
+    margin-top: 3px;
+}
+
+.subsection_name {
+    list-style-type: none;
+    font-size: 15px;
+    color: #002353;
+}
+
+.pricing_link {
+    margin: 150px auto 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pricing_link figcaption {
+    font-size: 20px;
+    color: #002353;
+}
+
+.pricing_link:hover > figcaption {
+    color: #f9a81b;
+}
+
+.pricing_link:hover > .excel_logo {
+    background: url("../img/excel-logo-selected.png") no-repeat center / cover;
+}
+
+.excel_logo {
+    width: 100px;
+    height: 100px;
+    background: url("../img/excel-logo.png") no-repeat center / cover;
+    margin: 0 auto;
+}
+
+.catalog_items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-around;
+}
+
+.catalog_item_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    flex-basis: 32%;
+    background-color: #f9a81b;
+    border-radius: 10px;
+}
+
+.catalog_item {
+    width: 100%;
+    height: 350px;
+    background-color: #002353;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.catalog_img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.description_list {
+    height: 156px;
+    overflow: hidden;
+    margin-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.description_list li {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.pricing {
+    font-size: 20px;
+    color: #f9a81b;
+}
+
+.item_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.item_footer a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.item_footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.paging_menu {
+    margin-top: 25px;
+}
+
+.paging_menu:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #002353;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+
+#paging_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#paging_list li a {
+    color: #002353;
+    cursor: pointer;
+}
+
+.company_desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.company_desc text {
+    text-align: justify;
+    flex-basis: 47%;
+    color: #002353;
+}
+
+.placeholder {
+    display: block;
+}

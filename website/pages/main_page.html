@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat</title>
+    <link rel="shortcut icon" href="../img/logo.svg">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/common-adaptive.css">
+    <link rel="stylesheet" href="../styles/main_page.css">
+    <link rel="stylesheet" href="../styles/main_page-adaptive.css">
+</head>
+
+<body>
+
+    <div>
+        <header>
+            <div class="container">
+                <div class="company_info">
+                    <div class="company_title">
+                        <img src="../img/logo.svg" alt="logo">
+                        <div class="company_title_desc">
+                            <h1>Cat Shop</h1>
+                            <p>est. 2022</p>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <p>+380 (99) 999 99 99</p>
+                        <p>+380 (66) 666 66 66</p>
+                        <a href="#" class="bordered_hover feedback_link">Consultation 24/7</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#" class="anim_hover">Main Page</a></li>
+                    <li class="separator"></li>
+                    <li><a href="index.html" class="anim_hover">Kittens</a></li>
+                    <li class="separator"></li>
+                    <li><a href="#" class="anim_hover">Rickroll</a></li>
+                    <li class="separator"></li>
+                    <li><a href="#" class="anim_hover">Prices</a></li>
+                    <li class="separator"></li>
+                    <li><a href="contacts.html" class="anim_hover">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="slider_section">
+            <div class="container">
+                <div class="arrow prev" id="prev"></div>
+                <div class="arrow next" id="next"></div>
+                <div id="controls">
+                </div>
+            </div>
+            <div id="slides"></div>
+            <script src="../scripts/slider.js"></script>
+        </section>
+
+        <section class="hotel_title_section">
+            <div class="container">
+                <div class="section_path">
+                    <a href="main_page.html" class="hover selected">Main Page</a>
+                </div>
+
+                <div class="main_company_title">
+                    <h1>Cat Shop</h1>
+                    <h2>est. 2022</h2>
+                </div>
+
+
+                <div class="main_company_desc">
+                    <p>
+                        The "Cat Shop" kitten store is located in a cozy corner of the city, surrounded by a carefully
+                        created environment for our furry friends. It is situated in the most attractive area, where you
+                        can find a wide selection of the cutest kittens.
+
+                        At "Cat Shop," you will discover a variety of pedigree breeds as well as adorable mixed-breed
+                        kittens that will simply melt your heart. Each kitten is raised with love and care, ensuring
+                        their health and harmonious development.
+
+                        Our store offers an irresistible choice of kittens of different ages and colors. You can choose
+                        from graceful Persian kittens with luxurious fur, energetic and playful Bengal kittens,
+                        affectionate and endearing Sphynx cats, and many other breeds known for their unique
+                        characteristics.
+
+                        At "Cat Shop," we strive to provide our customers with the best conditions for selecting and
+                        acquiring a kitten. Our experts are always ready to assist you in finding the perfect feline
+                        companion.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="to_cats_section">
+            <div class="container">
+                <div class="cats_images">
+                    <img src="../img/catalog/catToSell1.jpg" alt="cat1" class="scale_hover">
+                    <img src="../img/catalog/catToSell2.png" alt="cat3" class="scale_hover">
+                    <img src="../img/catalog/catToSell3.jpg" alt="cat3" class="scale_hover">
+                </div>
+                <a href="index.html">To kittens</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_company_info">
+                <p>est. 2022. JSC "Cat Shop"</p>
+                <p>catShop@gmail.com</p>
+            </div>
+            <ul class="footer_nav">
+                <li><a href="#" class="bordered_hover">Main Page</a></li>
+                <li><a href="index.html" class="bordered_hover">Kittens</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="bordered_hover">Rickroll</a></li>
+                <li><a href="#" class="bordered_hover">Prices</a></li>
+                <li><a href="contacts.html" class="bordered_hover">Contacts</a></li>
+            </ul>
+            <div class="about_developer">
+                <div class="developer_link">
+                    <a href="#" class="bordered_hover">Developer</a> —
+                </div>
+                <p>Gusi.exe development team</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="fog">
+        <div id="feedback_form_background">
+            <div id="feedback_form_div">
+                <div id="close_div">
+                    <div id="close_button"></div>
+                </div>
+                <h5>Feedback</h5>
+                <form id="feedback_form">
+                    <div id="inputs_div">
+                        <div>
+                            <label for="name_input">Your name<sup>*</sup></label>
+                            <input type="text" id="name_input" required placeholder="The field must be filled">
+                        </div>
+                        <div>
+                            <label for="phone_input">Phone Nuber<sup>*</sup></label>
+                            <input type="tel" id="phone_input" required placeholder="The field must be filled">
+                        </div>
+
+                        <div>
+                            <label for="email_input">Email<sup>*</sup></label>
+                            <input type="email" id="email_input" required placeholder="The field must be filled">
+                        </div>
+
+                        <div>
+                            <label for="msg_input">Message</label>
+                            <textarea id="msg_input"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="button" id="send_feedback_button">Send</button>
+                </form>
+                <p id="feedback_message">Thank for your message<br> Our managers will contact to you in next 14 hours
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../scripts/feedback_form.js"></script>
+
+</body>
+
+</html>
